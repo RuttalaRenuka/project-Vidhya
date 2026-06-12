@@ -7,10 +7,10 @@ import { Product, Coupon } from './types';
 
 // Let's use clean, targeted Unsplash and generated image URLs
 export const HERO_BANNER_IMG = '/src/assets/images/vidhya_hero_banner_1781247037619.jpg';
-export const HOME_PENS_IMG = '/src/assets/images/vidhya_pens_collection_1781247054022.jpg';
+export const HOME_PENS_IMG = '/src/assets/images/pens_row_collection_v2_1781257845319.jpg';
 
 // Other beautiful curated stock images
-export const STATIONERY_BANNER_IMG = 'https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&q=80&w=800';
+export const STATIONERY_BANNER_IMG = 'https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&q=80&w=800';
 export const BOOKS_BANNER_IMG = 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&q=80&w=800';
 export const BAGS_BANNER_IMG = 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=800';
 export const SHOES_BANNER_IMG = 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800';
@@ -29,7 +29,7 @@ export const products: Product[] = [
     price: 45,
     rating: 4.8,
     reviewsCount: 128,
-    image: 'https://images.unsplash.com/photo-1585336139055-343152645dd1?auto=format&fit=crop&q=80&w=600',
+    image: '/src/assets/images/pens_row_collection_v2_1781257845319.jpg',
     features: ['Fluorescent Radium accents on body', 'High-speed flow ink technology', 'Comfort soft-gel finger padding', '0.5mm Japanese micro-ball tip'],
     suggestions: ['Speed New Radium Core Series', 'Speed Radium Glitter Edition', 'Speed Radium Multi-Color Pack of 5'],
     inStock: true
@@ -45,7 +45,7 @@ export const products: Product[] = [
     originalPrice: 30,
     rating: 4.6,
     reviewsCount: 84,
-    image: 'https://images.unsplash.com/photo-1569003339405-ea396a5a8a90?auto=format&fit=crop&q=80&w=600',
+    image: '/src/assets/images/doms_super_gel_single_1781257861436.jpg',
     features: ['Smudge-free waterproof ink', 'Crystal see-through ink level window', 'Perfect balance body weighting', 'Recommended by top schools for junior grades'],
     suggestions: ['Doms C-Gel Comfort Series', 'Doms Glitter Sparkle Set', 'Doms Neon Touch Sign Roller'],
     inStock: true
@@ -60,7 +60,7 @@ export const products: Product[] = [
     price: 120,
     rating: 4.9,
     reviewsCount: 62,
-    image: 'https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&q=80&w=600',
+    image: '/src/assets/images/doms_super_gel_single_1781257861436.jpg',
     features: ['Premium heavy carbon fiber matte body', 'Gold-plated tungsten alloy tip', 'Refillable luxury cartridges', 'Comes in an elegant metal storage case'],
     suggestions: ['Elite Royale Rollerball', 'Elite Gold Touch Presentation Pack', 'Elite Scholar Soft-gilded Fountain'],
     inStock: true
@@ -77,7 +77,7 @@ export const products: Product[] = [
     price: 10,
     rating: 4.7,
     reviewsCount: 450,
-    image: 'https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&q=80&w=600',
+    image: '/src/assets/images/pencil_nataraj_classic_1781257896278.jpg',
     features: ['Signature red and black striped design', 'Super-bonded break resistant graphite lead', 'Certified non-toxic forest-friendly wood', 'Sharpens cleanly without splintering'],
     suggestions: ['Nataraj 621 Classic Box of 10', 'Nataraj Bold Super Graphite Pack', 'Nataraj Junior Hexagonal Grip'],
     inStock: true
@@ -92,7 +92,7 @@ export const products: Product[] = [
     price: 15,
     rating: 4.8,
     reviewsCount: 310,
-    image: 'https://images.unsplash.com/photo-1508830524289-0adcbe822b40?auto=format&fit=crop&q=80&w=600',
+    image: '/src/assets/images/pencil_apsara_platinum_1781257910550.jpg',
     features: ['Extra dark premium grade graphite', 'Distinctive grey & black design', 'Includes high-quality eraser and sharpener inside', 'Ideal for both sketching and rapid examination writing'],
     suggestions: ['Apsara Platinum Extra Dark Pack of 10', 'Apsara Matt Magic Pastel Edition', 'Apsara Beauty Writing Speciality Pencil'],
     inStock: true
@@ -137,7 +137,7 @@ export const products: Product[] = [
     price: 110,
     rating: 4.8,
     reviewsCount: 54,
-    image: 'https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&q=80&w=600',
+    image: 'https://images.unsplash.com/photo-1520443240718-fce21901db79?auto=format&fit=crop&q=80&w=600',
     features: ['Smooth clay-free deep charcoal cores', 'Varnish-coated light basswood protection body', 'Washes out neatly with water-blenders', 'Perfect for studio sketching and anatomy drawings'],
     suggestions: ['Kuelox Blending stumps', 'Faber Kneaded Eraser Deluxe'],
     inStock: true
@@ -198,7 +198,7 @@ export const products: Product[] = [
     price: 45,
     rating: 4.8,
     reviewsCount: 140,
-    image: 'https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?auto=format&fit=crop&q=80&w=600',
+    image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=600',
     features: ['Shatterproof high-bend plastic build', 'Grid-aligned magnifying central bar', 'Includes double-sided millimeter and inch graduations', 'Ultra-clean non-slip bottom texture'],
     suggestions: ['Maped Compact Scale Set', 'Vidhya Geometric Set Pro'],
     inStock: true
@@ -213,7 +213,7 @@ export const products: Product[] = [
     price: 30,
     rating: 4.7,
     reviewsCount: 92,
-    image: 'https://images.unsplash.com/photo-1506784919141-177b4ece2a8e?auto=format&fit=crop&q=80&w=600',
+    image: 'https://images.unsplash.com/photo-1579541814924-49fef17c5be5?auto=format&fit=crop&q=80&w=600',
     features: ['Rust-resisting hardened stainless steel', 'Rounded corner ends for pocket safety', 'Incredibly thin non-wobbling paper flush profile', 'Includes precise conversion table on backside'],
     suggestions: ['Camlin Steel Pro 30cm', 'Apsara Platinum Sharpener'],
     inStock: true
@@ -228,7 +228,7 @@ export const products: Product[] = [
     price: 240,
     rating: 4.9,
     reviewsCount: 64,
-    image: 'https://images.unsplash.com/photo-1506784919141-177b4ece2a8e?auto=format&fit=crop&q=80&w=600',
+    image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=600',
     features: ['Superb precision laser-engraved graduations', 'Ultra-stable triangular anti-roll balance profile', 'Color-coded index groves for quick scale selection', 'Perfect for professional layouts, math, and blueprints'],
     suggestions: ['Camel Steel Scale 30cm', 'Vidhya Precision Geometry Box'],
     inStock: true
@@ -243,7 +243,7 @@ export const products: Product[] = [
     price: 140,
     rating: 4.7,
     reviewsCount: 110,
-    image: 'https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&q=80&w=600',
+    image: 'https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?auto=format&fit=crop&q=80&w=600',
     features: ['Ergonomic soft rectangular grip body', 'Non-toxic quick dry smart ink', 'Dual-width chisel tip lines (1mm & 5mm)', 'Aesthetic pastel shades: Mint, Lavender, Peach, Yellow, Sky Blue'],
     suggestions: ['Luxor Neon Glow Pack', 'Luxor Micro Fine Outline Liners'],
     inStock: true
@@ -303,7 +303,7 @@ export const products: Product[] = [
     price: 95,
     rating: 4.6,
     reviewsCount: 78,
-    image: 'https://images.unsplash.com/photo-1515256449343-4b8826048fc2?auto=format&fit=crop&q=80&w=600',
+    image: 'https://images.unsplash.com/photo-1594761053151-e3d82fefd36f?auto=format&fit=crop&q=80&w=600',
     features: ['Premium rounded blunt tip design for student safety', 'Soft comfortable grip handles prevents fatigue', 'Laser sharp edge cuts craft sheets smoothly'],
     suggestions: ['Camel Glue Stick Pack', 'Camel Colored Craft Board Sheets'],
     inStock: true
@@ -459,29 +459,29 @@ export const products: Product[] = [
   // LUNCH BOXES
   {
     id: 'lunch-milton-steel',
-    name: 'Milton Insulated Deluxe Lunch Box Set',
-    description: 'Keeps student meals fresh and piping hot until lunch break. Double-wall insulated cover with food-safe interior steel tins and an insulated carrying handbag.',
+    name: 'Milton 2-Tier Insulated School Lunch Box',
+    description: 'Premium two-tier double-decker school lunch box in beautiful pastel peach and coral orange. Features robust leak-proof side-locking latches, dual chambers for warm meals, and a nested reusable fork and spoon set.',
     category: 'lunch_boxes',
     brand: 'Milton',
     price: 580,
     rating: 4.8,
     reviewsCount: 290,
-    image: 'https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&q=80&w=600',
-    features: ['3 air-tight leak-proof stainless steel bowls', 'Highly insulated canvas pouch with robust zippers', 'Food-contact safe materials that preserve nutrient values'],
+    image: '/src/assets/images/lunchbox_tiered_1781257603384.jpg',
+    features: ['Double-decker 2-tier design for complete meal segregation', 'Robust secure-clamp side lock latches prevent leaks', 'Translucent custom top lid with integrated cutlery carrier compartment'],
     inStock: true
   },
   {
     id: 'lunch-signoraware-bento',
-    name: 'Signoraware Slim Bento Box with Cutlery',
-    description: 'Slim, leak-proof bento compartment box that slips flat in school bags. Keep snacks, salad, and main course separated and perfectly fresh.',
+    name: 'Signoraware 3-Compartment Bento Lunch Box',
+    description: 'Premium three-compartment bento lunch box designed for perfectly structured school meals. Keep main course, vegetables, and rice perfectly portioned, fresh, and delicious.',
     category: 'lunch_boxes',
     brand: 'Signoraware',
     price: 290,
     originalPrice: 350,
     rating: 4.5,
     reviewsCount: 112,
-    image: 'https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&q=80&w=600',
-    features: ['Compact flat profile layout', 'Microwave safe and dishwasher safe construction', 'Comes with clip-in fork and spoon set'],
+    image: '/src/assets/images/lunchbox_bento_1781257585326.jpg',
+    features: ['Three heavy-duty food-safe compartmental divisions', 'Microwave and dishwasher safe medical grade plastic polymer', 'Comes with compact reusable food-contact safe spoon and fork set'],
     inStock: true
   }
 ];
