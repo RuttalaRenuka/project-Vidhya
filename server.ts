@@ -60,6 +60,14 @@ Product Catalog details you must recommend:
   - "Nataraj 621 Red & Black Pencils" (₹10): Iconic, durable, break-resistant red-and-black pencils.
   - "Apsara Platinum Extra Dark Pencil" (₹15): Extra dark premium graphite, exam superstar.
   - "Doms Zoom Triangle Dark Pencil" (₹18): Ergonomic triangular body for small hands.
+  - "Staedtler Mars Carbon Professional 2.0mm Mechanical Pencil" (₹180): Premium heavy drafting body, built-in sharpener, 4 HB carbon leads.
+  - "Kuelox Premium Charcoal Sketching Pencils (Set of 3)" (₹110): Dense artistic charcoal for deep shading and contrast.
+  - "Vidhya Precision Geometry & Drawing Box" (₹210): Zinc die-cast self-centering compass, shatterproof millimeter rulers.
+  - "Maped Precision Shatterproof Transparent Scale 30cm" (₹45): Multi-stress resilient bendy body, high magnification reading bar, precise graduations.
+  - "Camlin Elegant Rust-Free Stainless Steel Scale 15cm" (₹30): Pocket profile steel with deeply etched dark conversion metrics.
+  - "Luxor Pastel Chisel Accent Highlighters (Pack of 5)" (₹140): Beautiful warm non-toxic pastel shades.
+  - "Faber-Castell Triangular Super Wax Crayons (Pack of 12)" (₹125): Ergonomic shape helps child find the perfect handgrip.
+  - "Camel Heavy-Duty Premium Steel Scissors 6-Inch" (₹95): Blunt rounded tip craft shears.
   - Erasers: "Doms Dust-Free Jumbo Eraser" (₹5), "Apsara Non-Dust Deluxe Erasers Pack of 5" (₹20, was ₹25).
   - Notebooks: "Classmate Premium Single Line Notebook" (₹65), "Classmate Spiral Bound long Book" (₹110, was ₹130) with 200 sheets.
 - Books:
@@ -88,9 +96,17 @@ function getLocalFallbackResponse(userPrompt: string): string {
   const prompt = userPrompt.toLowerCase();
   
   if (prompt.includes("pen") || prompt.includes("write") || prompt.includes("pencil")) {
-    return `📝 **Vidhya Assistant Selection Guide: Pens & Pencils**\n\nI highly recommend our academic favorites:\n- **Speed New Radium Neon Gel Pen** (₹45): Perfect for energetic writing and vibrant note-taking.\n- **Doms Super Gel Smooth Pen** (₹25 - *On Special!*): High-density pigment, great for everyday speed writing.\n- **Apsara Platinum Extra Dark Pencil** (₹15): The perfect companion for rapid exam writing and clear bubble shading.\n\n💡 *Tip: Apply coupon **BULKPEN** to get 15% off stationery stacks when ordering above ₹500!*`;
+    return `📝 **Vidhya Assistant Selection Guide: Pens & Pencils**\n\nI highly recommend our academic favorites:\n- **Speed New Radium Neon Gel Pen** (₹45): Perfect for energetic writing and vibrant note-taking.\n- **Staedtler Mars Carbon Professional 2.0mm Mechanical Pencil** (₹180): Premium heavy drafting body with built-in sharpener for accurate drawings.\n- **Apsara Platinum Extra Dark Pencil** (₹15): The perfect companion for rapid exam writing and clear bubble shading.\n- **Kuelox Premium Charcoal Sketching Pencils (Set of 3)** (₹110): Dense clay-free deep charcoal for professional shading.\n\n💡 *Tip: Apply coupon **BULKPEN** to get 15% off stationery stacks when ordering above ₹500!*`;
   }
   
+  if (prompt.includes("geometry") || prompt.includes("math") || prompt.includes("ruler") || prompt.includes("scale") || prompt.includes("instrument") || prompt.includes("compass")) {
+    return `📐 **Vidhya Assistant Selection Guide: Mathematics & Instruments**\n\nCheckout our high-precision drawing instruments and scales:\n- **Vidhya Precision Geometry & Drawing Box** (₹210): Features self-centering die-cast zinc compasses, zero-glare transparent scales and set squares.\n- **Maped Precision Shatterproof Transparent Scale 30cm** (₹45): Highly physical-stress-tolerant bendy body with non-wearing metric and inches markings.\n- **Camlin Elegant Rust-Free Stainless Steel Scale 15cm** (₹30): Pocket rule with deeply etched dark conversion metrics that never rub off. No more wobbles!`;
+  }
+
+  if (prompt.includes("highlight") || prompt.includes("marker") || prompt.includes("luxor") || prompt.includes("color") || prompt.includes("crayon") || prompt.includes("art")) {
+    return `🎨 **Vidhya Art & Text-Highlighting Essentials**\n\nMake study notebooks and project charts gorgeous with these:\n- **Luxor Pastel Chisel Accent Highlighters (Pack of 5)** (₹140): Light-tone water-based inks that dry instantly. Colors: Mint, Lavender, Peach, Yellow, Sky Blue!\n- **Faber-Castell Triangular Super Wax Crayons (Pack of 12)** (₹125): Specially sculpted triangular body that comfortable teaches correct writing grip. Safe & non-smudging!`;
+  }
+
   if (prompt.includes("bag") || prompt.includes("pack") || prompt.includes("backpack")) {
     return `🎒 **Vidhya Assistant Recommendation: School Bags**\n\nTo ensure comfortable posture, check these out:\n- **Skybags Campus Ergonomic Backpack** (₹1250 - *30% Off!*): Built with air-mesh double cushioning to protect growing student shoulders.\n- **Safari Prime Flexi-back School Bag** (₹999): Exceptionally lightweight (<450g) and heavily reinforced with dual seams.\n\nUse code **STUDENT10** for an additional 10% discount on these premium bags!`;
   }
