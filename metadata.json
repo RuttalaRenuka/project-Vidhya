@@ -1,0 +1,6 @@
+{
+  "name": "Vidhya",
+  "description": "An e-commerce website for students, featuring a smart AI Student Advisor, stationery, books, bags, shoes, water bottles, and lunch deluxe gear with easy browsing, specific checklists, and simulated tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
